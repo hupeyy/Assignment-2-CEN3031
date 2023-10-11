@@ -1,0 +1,19 @@
+{
+  "name": "bootcamp-2-persistent-data-with-postgresql-hupeyy",
+  "version": "1.0.0",
+  "description": "Our application at this point has an issue one majore issue... \r - Each time the server starts, we reload the data from the same JSON file.",
+  "main": "JSONtoPostgreSQL.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "dependencies": {
+    "@sequelize/core": "^7.0.0-alpha.32",
+    "dotenv": "^16.3.1",
+    "imported": "^2.2.1",
+    "pg": "^8.11.3"
+  }
+}
